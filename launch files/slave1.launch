@@ -1,0 +1,11 @@
+<launch>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcdir1.py" name="motorSUBcdir1" output="screen" />
+
+    <node pkg="ros_basic_tutorials" type="motorSUBpwm1.py" name="motorSUBpwm1" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcrpm1.py" name="motorSUBcrpm1" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcompass1.py" name="motorSUBcompass1" output="screen"/>
+
+</launch>

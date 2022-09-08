@@ -1,0 +1,41 @@
+<launch>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcdir1.py" name="motorSUBcdir1" output="screen" />
+
+    <node pkg="ros_basic_tutorials" type="motorSUBpwm1.py" name="motorSUBpwm1" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcrpm1.py" name="motorSUBcrpm1" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcompass1.py" name="motorSUBcompass1" output="screen"/>
+
+
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcdir2.py" name="motorSUBcdir2" output="screen" />
+
+    <node pkg="ros_basic_tutorials" type="motorSUBpwm2.py" name="motorSUBpwm2" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcrpm2.py" name="motorSUBcrpm2" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcompass2.py" name="motorSUBcompass2" output="screen"/>
+
+
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcdir3.py" name="motorSUBcdir3" output="screen" />
+
+    <node pkg="ros_basic_tutorials" type="motorSUBpwm3.py" name="motorSUBpwm3" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcrpm3.py" name="motorSUBcrpm3" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcompass3.py" name="motorSUBcompass3" output="screen"/>
+
+    
+
+    <!-- <node pkg="ros_basic_tutorials" type="motorSUBcdir4.py" name="motorSUBcdir4" output="screen" />
+
+    <node pkg="ros_basic_tutorials" type="motorSUBpwm4.py" name="motorSUBpwm4" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcrpm4.py" name="motorSUBcrpm4" output="screen"/>
+
+    <node pkg="ros_basic_tutorials" type="motorSUBcompass4.py" name="motorSUBcompass4" output="screen"/> -->
+
+</launch>

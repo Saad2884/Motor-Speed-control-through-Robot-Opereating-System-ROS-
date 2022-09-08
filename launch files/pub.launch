@@ -1,0 +1,8 @@
+<launch>
+
+    <node pkg="ros_basic_tutorials" type="reqdir.py" name="reqdir" output="screen" />
+
+    <node pkg="ros_basic_tutorials" type="reqrpm.py" name="reqrpm" output="screen" />
+
+
+</launch>
